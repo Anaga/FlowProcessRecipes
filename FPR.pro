@@ -4,15 +4,23 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui xml
 
 TARGET = FPR
 TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    recipeswriter.cpp \
+    recipesreader.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    recipeswriter.h \
+    recipesreader.h
 
 FORMS    += mainwindow.ui
+
+
+
+
